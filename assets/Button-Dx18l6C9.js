@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-CEmmQhOE.js";var t={button:`_button_u421r_1`,primary:`_primary_u421r_29`,ghost:`_ghost_u421r_41`,danger:`_danger_u421r_51`,lg:`_lg_u421r_57`},n=e();function r({variant:e=`primary`,size:r=`md`,className:i,...a}){return(0,n.jsx)(`button`,{className:[t.button,t[e],r===`lg`?t.lg:``,i??``].join(` `).trim(),...a})}export{r as t};

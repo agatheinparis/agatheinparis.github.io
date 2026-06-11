@@ -1,0 +1,1 @@
+function e(e,t){let n=0;for(let r of e)t[r.id]&&n++;return{lit:n,total:e.length}}function t(e,t){let n=new Map;for(let r of e)for(let e of r.lines){let i=n.get(e)??{lit:0,total:0};i.total++,t[r.id]&&i.lit++,n.set(e,i)}return n}export{t as n,e as t};
