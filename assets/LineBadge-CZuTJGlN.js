@@ -1,1 +1,0 @@
-import{t as e}from"./jsx-runtime-i3SvB5kE.js";var t={badge:`_badge_smmwo_1`,sm:`_sm_smmwo_12`,md:`_md_smmwo_18`,lg:`_lg_smmwo_24`,dimmed:`_dimmed_smmwo_30`},n=e();function r({line:e,color:r,textColor:i,size:a=`md`,dimmed:o}){return(0,n.jsx)(`span`,{className:[t.badge,t[a],o?t.dimmed:``].join(` `),style:{backgroundColor:r,color:i},children:e})}export{r as t};
